@@ -12,7 +12,6 @@ Source:		ftp://ftp.inria.fr/INRIA/Projects/Atoll/Eric.Clergerie/TAG/%{name}-%{ve
 Url:		http://atoll.inria.fr/packages/packages.html#dyalog-xml
 BuildRequires:	dyalog
 BuildRequires:	libxml2-devel
-Buildroot:	%{_tmppath}/%{name}-%{version}
 
 %description
 A DyALog module providing predicates over LibXML API. This module, while very
