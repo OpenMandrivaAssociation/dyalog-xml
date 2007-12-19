@@ -1,6 +1,6 @@
 %define name	dyalog-xml
-%define version 1.0.1
-%define release %mkrel 4
+%define version 1.0.3
+%define release %mkrel 1
 
 Name:		%{name}
 Version:	%{version}
