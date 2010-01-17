@@ -1,6 +1,6 @@
 %define name	dyalog-xml
-%define version 1.0.3
-%define release %mkrel 4
+%define version 1.0.4
+%define release %mkrel 1
 
 Name:		%{name}
 Version:	%{version}
@@ -8,12 +8,12 @@ Release:	%{release}
 Summary:	DyAlog XML module
 License:	GPL
 Group:		Sciences/Computer science
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-Source:		ftp://ftp.inria.fr/INRIA/Projects/Atoll/Eric.Clergerie/TAG/%{name}-%{version}.tar.bz2
-Url:		http://atoll.inria.fr/packages/packages.html#dyalog-xml
+Url:		http://dyalog.gforge.inria.fr/
+Source:		http://gforge.inria.fr/frs/download.php/5641/%{name}-%{version}.tar.gz
 BuildRequires:	dyalog
 BuildRequires:	libxml2-devel
 ExclusiveArch:  %{ix86}
+BuildRoot: %{_tmppath}/%{name}-%{version}
 
 %description
 A DyALog module providing predicates over LibXML API. This module, while very
