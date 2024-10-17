@@ -8,7 +8,7 @@ Release:	%{release}
 Summary:	DyAlog XML module
 License:	GPL
 Group:		Sciences/Computer science
-Url:		http://dyalog.gforge.inria.fr/
+Url:		https://dyalog.gforge.inria.fr/
 Source:		http://gforge.inria.fr/frs/download.php/5641/%{name}-%{version}.tar.gz
 BuildRequires:	dyalog
 BuildRequires:	libxml2-devel
