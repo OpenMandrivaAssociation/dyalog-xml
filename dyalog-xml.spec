@@ -10,6 +10,11 @@ License:	GPL
 Group:		Sciences/Computer science
 Url:		https://dyalog.gforge.inria.fr/
 Source:		http://gforge.inria.fr/frs/download.php/5641/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	dyalog
 BuildRequires:	libxml2-devel
 ExclusiveArch:  %{ix86}
